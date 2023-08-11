@@ -1,0 +1,120 @@
+.book-card {
+    width: 70px;
+    min-width: none;
+    max-width: 70px;
+    height: 257px; 
+    margin: 0px;
+    /* padding: 20px; */
+    background-color: #f9f9f9;
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  
+    @media (min-width: 768px) {
+      width: calc(50% - 20px);
+      height: 400px;
+    }
+  }
+  
+  .book-image {
+    height: 100px;
+    object-fit: cover;
+    /* border-radius: 4px; */
+    margin: 0 auto; 
+  }
+  
+  .book-title {
+    font-size: 1.2rem; 
+
+  }
+  
+  .book-price {
+    font-size: 1rem; 
+  }
+  
+  .book-discount {
+    font-size: 0.9rem; 
+    color: #3498db;
+  }
+  .shopping-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* .product-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    max-height: 307px;
+    max-width: 187px;
+  } */
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+/*  
+  @media (max-width: 768px) {
+    .shopping-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .shopping-grid {
+      grid-template-columns: 1fr;
+    }
+  } */
+  h6{
+    text-align: left;
+  }    
+  @media (max-width: 700px) and (min-width: 350px){
+    /* .shopping-grid {
+        background-color:red;
+        grid-template-columns: repeat(2, 1fr);
+    } */
+    .book-title{
+        font-size:0.8rem;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: start;
+    }
+    .book-price{
+        justify-content: space-around;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    .product-card {
+        background-color: #fcfcfc;
+        border: 0px solid #ccc;
+        margin-right: 1px;
+        /* margin-left: 3px; */
+        /* padding: 20px; */
+        /* height:187px;
+        width: px; */
+        /* text-align: center; */
+      }
+      .product-card-sub{
+        height: 20%;
+        padding-left:5%;
+        padding-right: 5%;
+        justify-content: flex-start;
+      }  
+      .product-card-image img {
+        width: 100%;
+        height: auto;
+        
+      }
+    .discount{
+        color: #e74c3c;
+
+    }
+  }

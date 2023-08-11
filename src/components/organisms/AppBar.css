@@ -1,0 +1,55 @@
+.app-bar {
+    background-color: #f0f0f0;
+    /* padding: 10px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 17%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .app-bar-title {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+
+  @media (max-width: 1024px) {
+    .app-bar {
+        background-color: #f0f0f0;
+        /* padding: 10px 0; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 17%;
+
+        box-sizing: border-box;
+        position: relative;
+      }
+    .app-bar-title {
+      font-size: 10px;
+    }
+  }
+  
+@media (max-width: 700px) and (min-width: 350px){
+    .app-bar {
+        background-color: #f0f0f0;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        width: 100%; 
+        height: 17%;
+        box-sizing: border-box;
+        position: relative;
+      }
+    .app-bar-title {
+      font-size: 13px;
+    }
+  }
