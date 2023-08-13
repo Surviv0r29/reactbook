@@ -25,7 +25,7 @@ const BookList: React.FC = () => {
   const fetchBooks = async () => {
     try {
       const response = await axios.get('http://143.110.180.123:3000/api/books');
-      setBooks(response.data);
+      setBooks(response.data.data);
     } catch (error) {
       console.error('Error fetching books:', error);
     }
