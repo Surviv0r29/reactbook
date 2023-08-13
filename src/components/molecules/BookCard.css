@@ -1,22 +1,12 @@
 .book-card {
-    width: 70px;
-    min-width: none;
-    max-width: 70px;
-    height: 257px; 
-    margin: 0px;
-    /* padding: 20px; */
-    background-color: #f9f9f9;
-    /* border-radius: 8px; */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-  
-    @media (min-width: 768px) {
+  background-color: #fcfcfc;
+  border: 0px solid #ccc;
+  margin-right: 1px;
+
+    /* @media (min-width: 768px) {
       width: calc(50% - 20px);
       height: 400px;
-    }
+    } */
   }
   
   .book-image {
@@ -74,7 +64,7 @@
   h6{
     text-align: left;
   }    
-  @media (max-width: 700px) and (min-width: 350px){
+  /* @media (max-width: 700px) and (min-width: 350px){ */
     /* .shopping-grid {
         background-color:red;
         grid-template-columns: repeat(2, 1fr);
@@ -96,6 +86,7 @@
         background-color: #fcfcfc;
         border: 0px solid #ccc;
         margin-right: 1px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         /* margin-left: 3px; */
         /* padding: 20px; */
         /* height:187px;
@@ -117,4 +108,4 @@
         color: #e74c3c;
 
     }
-  }
+  /* } */

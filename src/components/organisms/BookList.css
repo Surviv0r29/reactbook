@@ -1,8 +1,7 @@
 .book-list {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-    padding: 10px;
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+  padding: 16px;
   
     /* @media (max-width: 767px) {
       flex-direction: column;

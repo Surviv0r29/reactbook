@@ -14,7 +14,7 @@ interface BookCardProps {
 }
 
 const BookCard: React.FC<BookCardProps> = ({ book, isMobile }) => (
-    (isMobile ?
+    // (isMobile ?
         <div className="product-card" >
             <div className="product-card-image">
              <BookImage src={book.coverImage} alt={book.title} />
@@ -29,15 +29,16 @@ const BookCard: React.FC<BookCardProps> = ({ book, isMobile }) => (
                 </div>
             </div>
         </div>
-        : <div className="book-card">
-            <div className="book-image-container">
-                <BookImage src={book.coverImage} alt={book.title} />
-            </div>
-            <h3>{book.title}</h3>
-            <p className="discount">{book.discountRate}%</p>
-            <Price value={book.price} />
+        // : <div className="book-card">
+        //     <div className="book-image-container">
+        //         <BookImage src={book.coverImage} alt={book.title} />
+        //     </div>
+        //     <h3>{book.title}</h3>
+        //     <p className="discount">{book.discountRate}%</p>
+        //     <Price value={book.price} />
             
-        </div>)
+        // </div>
+        
 );
 
 export default BookCard;
